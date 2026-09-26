@@ -15,7 +15,7 @@ on:
 # Полная сборка OpenWrt может занимать 1–3 часа в зависимости от
 # нагрузки на раннеры GitHub — увеличиваем лимит на всякий случай.
 env:
-  OPENWRT_REF: ${{ github.event.inputs.openwrt_ref || 'openwrt-25.12.5' }}
+  OPENWRT_REF: openwrt-25.12
 
 jobs:
   build:

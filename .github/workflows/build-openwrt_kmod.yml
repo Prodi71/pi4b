@@ -1,4 +1,4 @@
-name: Build OpenWrt for Raspberry Pi 4 B
+name: Build OpenWrt for Raspberry Pi 4 B kmod
 
 on:
   workflow_dispatch:
